@@ -1,0 +1,2 @@
+ALTER TABLE `resource`
+    ADD COLUMN `isArchived` TINYINT NOT NULL DEFAULT 0;
